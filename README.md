@@ -53,7 +53,7 @@ Determines transcript likelihood to undergo/escape nonsense-mediated mRNA decay 
 
 [^2]: M. W. Popp and L. E. Maquat, “Leveraging Rules of Nonsense-Mediated mRNA Decay for Genome Engineering and Personalized Medicine,” Cell, vol. 165, no. 6, pp. 1319–1322, Jun. 2016, doi: 10.1016/j.cell.2016.05.053.
 
-### D. **3primeUTR_dORF.R**
+### D. 3primeUTR_dORF.R
 
 Investigating dORF composition across 3' UTRs.
 
@@ -61,3 +61,11 @@ Investigating dORF composition across 3' UTRs.
 - [x] Determine number of dORFs across NMD categories
 - [x] Determine dORF count across LOEUF deciles
 - [ ] Calculate distance between dORFs start and end to 3' UTR EJC positions
+
+### E. 3primeUTR_diseaseGenes
+
+Compare 3' UTR composition across different disease gene groups.
+- Uses **Gene2Phenotype** developmental disorder dataset
+- Uses **COSMIC Cancer Gene census** dataset
+- Uses gene dosage sensitivity dataset from: _R. L. Collins et al., “A cross-disorder dosage sensitivity map of the human genome,” Cell, vol. 185, no. 16, pp. 3041-3055.e25, Aug. 2022, doi: 10.1016/j.cell.2022.06.036_.
+- Uses **NHS PanelApp** green genes
