@@ -85,3 +85,8 @@ Compare 3' UTR composition across different disease gene groups.
 - Uses **COSMIC Cancer Gene census** dataset
 - Uses gene dosage sensitivity dataset from: _R. L. Collins et al., “A cross-disorder dosage sensitivity map of the human genome,” Cell, vol. 185, no. 16, pp. 3041-3055.e25, Aug. 2022, doi: 10.1016/j.cell.2022.06.036_.
 - Uses **NHS PanelApp** green genes
+
+
+### Total 3' UTR Exon Length Across Disease Genes
+![image](https://github.com/alex137911/3Prime_UTRs/assets/78928747/1d3f40c9-f4d7-4a13-82d7-a311536cc82a)
+
