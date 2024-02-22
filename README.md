@@ -16,6 +16,11 @@ Preliminary analysis of 3' UTR composition in MANE v1.1 transcripts.
 - [x] Calculate total (cumulative) exon length per gene
 - [x] Calculate 3' UTR intron count per gene
 
+
+### 3' UTR Composition in MANE Transcripts 
+![image](https://github.com/alex137911/3Prime_UTRs/assets/78928747/31abcd79-1024-4206-a7f8-6fb99eb91280)
+
+
 ### B. 3primeUTR_LOEUF.R
 
 Investigating the differences in 3' UTR composition between genes that are tolerant/intolerant to loss-of-function mutation.
@@ -29,11 +34,17 @@ Investigating the differences in 3' UTR composition between genes that are toler
 
 [^1]: Note that gnomAD v2.1.1 uses hg19 build, while MANE v1.1 uses hg38 genome assembly
 
+
+### 3' UTR Exon Length Across LOEUF Deciles
+![image](https://github.com/alex137911/3Prime_UTRs/assets/78928747/91803b6f-e87e-4da3-b4d4-f676c1f23b01)
+
+
 ### C1. cDNAconverter.R
 
 Modified Ruby's code to convert 3' UTR genomic coordinates to cDNA coordinates. Also determines the presence of stop introns and calculates their coordinates.
 - Uses **Ensembl v110**
 - A compiled list of all (_n = 31_) stop introns and their coordinates is available in the Data folder of this repository
+
 
 ### C2. 3primeUTR_NMD.R
 
@@ -52,6 +63,11 @@ Determines transcript likelihood to undergo/escape nonsense-mediated mRNA decay 
 - [x] Cross-reference genes which are impacted by NMD with NHS PanelApp green genes and LOEUF scores
 
 [^2]: M. W. Popp and L. E. Maquat, “Leveraging Rules of Nonsense-Mediated mRNA Decay for Genome Engineering and Personalized Medicine,” Cell, vol. 165, no. 6, pp. 1319–1322, Jun. 2016, doi: 10.1016/j.cell.2016.05.053.
+
+
+### Calculating EJC Position Relative to CDS End
+![image](https://github.com/alex137911/3Prime_UTRs/assets/78928747/0fd099f8-bc8c-41bf-8385-f488b15dffa5)
+
 
 ### D. 3primeUTR_dORF.R
 
